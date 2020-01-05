@@ -1,0 +1,80 @@
+h1 {
+	font-size: 40px;
+}
+
+.list_header {
+	font-size:60px;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	color:white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: black;
+  height: 120%; /* Full height */
+  margin-top:-30px;
+  margin-left:-10px;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li {
+	text-align:center;
+}
+
+.material-icons {
+  color:white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.me {
+  margin-top:130px;
+  width:100%;
+  border:3px solid black;
+}
+
+.bio {
+  font-size:14px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
