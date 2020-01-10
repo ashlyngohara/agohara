@@ -1,5 +1,36 @@
-h1 {
-	font-size: 40px;
+h2 {
+  font-size: 40px;
+  text-align: left;
+}
+
+h3 {
+  font-size:22px;
+}
+
+h4 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+a {
+  color:#6AA884;
+}
+
+.box {
+  height:500px;
+  width:425px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.workimages {
+  width:300px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px;
 }
 
 .list_header {
@@ -74,6 +105,20 @@ a:link {
 
 .bio {
   font-size:14px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+.bio2 {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+.bio3 {
+  font-size:15px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
   line-height: 1.6;
