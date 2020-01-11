@@ -1,6 +1,8 @@
 h2 {
   font-size: 40px;
-  text-align: left;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  color:white;
 }
 
 h3 {
@@ -34,33 +36,14 @@ a {
   border:1px;
 }
 
-.list_header {
-	font-size:60px;
-	font-family: 'Julius Sans One', sans-serif;
-	text-align: center;
-	color:white;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  background-color: black;
-  height: 120%; /* Full height */
-  margin-top:-30px;
-  margin-left:-10px;
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
-}
-
-li {
-	text-align:center;
-}
-
 .material-icons {
   color:white;
   font-size:40px;
+  text-align: center;
+}
+
+i {
+  position:center;
 }
 
 a:link {
@@ -75,20 +58,23 @@ a:link {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 100px;
+  width: 120px;
   background-color: black;
   color: white;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  font-size:30px;
+  font-size:25px;
+  font-family: 'Roboto', sans-serif;
 
   
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: -5px;
-  left: 105%;
+  top:100%;
+  left:50%;
+  margin-left: -60px;
+
 }
 
 .tooltip:hover .tooltiptext {
@@ -129,8 +115,40 @@ a:link {
 }
 
 
-@media only screen and (max-width: 900px) {
-  header {
-    background-color: blue;
-  }
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  text-align:center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
