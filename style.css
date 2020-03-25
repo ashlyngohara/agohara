@@ -39,29 +39,30 @@ a {
   border:1px;
 }
 
-.list_header {
-	font-size:60px;
-	font-family: 'Julius Sans One', sans-serif;
-	text-align: center;
-	color:white;
-}
 
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 20%;
-  background-color: black;
-  height: 120%; /* Full height */
-  margin-top:-30px;
-  margin-left:-10px;
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  overflow: hidden;
+  background-color: #333;
+  height:100px;
 }
 
 li {
-	text-align:center;
+  float: left;
+  margin-left:5px;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left:50px;
+}
+
 
 .material-icons {
   color:white;
@@ -75,29 +76,28 @@ a:link {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 100px;
-  background-color: black;
-  color: white;
+  color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  font-size:30px;
-
-  
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: -5px;
-  left: 105%;
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 25px;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  opacity: 1;
 }
 
 .container {
@@ -107,8 +107,8 @@ a:link {
 }
 
 .me {
-  margin-top:130px;
-  width:100%;
+  margin-top:90px;
+  width:130%;
   border:3px solid black;
 }
 
