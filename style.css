@@ -5,16 +5,18 @@ h2 {
 
 h3 {
   font-size:22px;
+  width:500px;
 }
 
 h4 {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+    width:500px;
 }
 
 .hello {
   font-family: 'Julius Sans One', sans-serif;
-  font-size:40px;
+  font-size:100px;
 }
 
 a {
