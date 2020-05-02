@@ -21,11 +21,25 @@ h4 {
 .hello {
   font-family: 'Roboto', sans-serif;
   color:white;
-  font-size:50px;
+  font-size:40px;
 }
 
-a {
-  color:#6AA884;
+.abouttext {
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+}
+
+.about_embeds {
+  width:20%;
+  float:right;
+  padding:15px;
+}
+
+.about_embedsl {
+  width:15%;
+  float:left;
+  padding:15px;
 }
 
 .box {
@@ -46,17 +60,9 @@ a {
   border:1px;
 }
 
-
-.nav {
-  list-style-type: inline;
-  margin: 0;
-  padding: 0;
-  text-align:right;
-}
-
 li {
-  float: left;
-  margin-left:5px;
+  float: left;s
+  color:white;
 }
 
 li a {
@@ -71,7 +77,7 @@ li a {
 
 .material-icons {
   color:white;
-  font-size:40px;
+  font-size:4px;
 }
 
 a:link {
@@ -105,11 +111,6 @@ a:link {
   opacity: 1;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
-}
 
 .me {
   width:100%;
@@ -147,63 +148,79 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: black;
+button {
+  background:black;
+  border:none;
   font-family: 'Montserrat', sans-serif;
+  color:white;
 }
 
-.navbar a {
-  float: right;
-  font-size: 16px;
-  color: white;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
+button:hover {
+  background:lightgrey;
+  border-radius:8px;
+  color:black;
+  padding:5px;
+  position:absolute;
+}
+
+a {
+  color:white;
+}
+
+.btn {
+  color:white;
+  background:black;
+  border:none;
+  font-family: 'Montserrat', sans-serif;
+  position:absolute;
+  padding: 2px;
+  border-radius: 0px;
 }
 
 .dropdown {
-  float: right;
-  overflow: hidden;
+  background:black;
+  position:absolute;
 }
 
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+.dropdown-menu {
+  background-color:black;
+
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
+.navtext:hover {
+  color:black;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dd {
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  border:none;
+  padding:none;
+  text-align:left;
 }
 
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.btn-primary:hover {
+  color:black;
+  background:lightgrey;
+  font-family: 'Montserrat', sans-serif;
+  position:absolute;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+color: white;
+background-color: black;
+border:none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+a:hover {
+color: lightgrey;
+text-decoration: none;
+
+
 }
+
+.container {
+  padding-top: 20px;
+}
+
