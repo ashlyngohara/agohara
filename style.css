@@ -354,13 +354,18 @@ li {
 }
 
 .box-content1 {
-  padding: 20px;
+padding: 20px;
 text-align:center;
 }
 
 .graphicsimg {
   width:100%;
   min-width:200px;
+}
+
+.projimg1 {
+  width:100%;
+  position:center;
 }
 
 
