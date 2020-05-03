@@ -34,12 +34,14 @@ h4 {
   width:20%;
   float:right;
   padding:15px;
+  min-width:300px
 }
 
 .about_embedsl {
   width:15%;
   float:left;
   padding:15px;
+    min-width:200px
 }
 
 .box {
@@ -114,6 +116,7 @@ a:link {
 
 .me {
   width:100%;
+  min-width: 100px;
 }
 
 .bio {
@@ -236,3 +239,4 @@ text-decoration: none;
 li {
   list-style-type: none;
 }
+
