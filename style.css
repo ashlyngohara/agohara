@@ -193,6 +193,7 @@ a {
   position:absolute;
   padding: 2px;
   border-radius: 0px;
+  font-size:12px;
 }
 
 .dropdown {
@@ -209,10 +210,14 @@ a {
   color:black;
 }
 
+.navtext {
+  font-size:12px;
+}
+
 .dd {
   color:white;
   font-family: 'Montserrat', sans-serif;
-  font-size:15px;
+  font-size:12px;
   border:none;
   padding:none;
   text-align:left;
