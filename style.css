@@ -13,7 +13,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     width:500px;
 }
@@ -28,6 +28,12 @@ h4 {
   color:white;
   font-family: 'Montserrat', sans-serif;
   font-size:18px;
+}
+
+.subhead {
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+  color:white;
 }
 
 .about_embeds {
@@ -46,12 +52,16 @@ h4 {
 
 .box {
   height:500px;
-  width:500px;
-  border:1px solid #ccc;
-  font:16px/26px Georgia, Garamond, Serif;
+  width:100%;
+  background:white;
+  font-family: 'Montserrat', sans-serif;
   overflow:auto;
   padding-left:15px;
   padding-right:15px;
+}
+
+.box-content {
+padding:40px;
 }
 
 .workimages {
@@ -69,7 +79,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -121,15 +131,15 @@ a:link {
 }
 
 .bio {
-  font-size:14px;
-  font-family: 'Roboto', sans-serif;
+  font-size:10px;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   line-height: 1.6;
 }
 
 .bio2 {
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   line-height: 1.6;
 }
@@ -169,6 +179,10 @@ button:hover {
 
 a {
   color:white;
+}
+
+.hed {
+  color:black;
 }
 
 .btn {
@@ -220,8 +234,6 @@ border-color: black;
 float:left;
 }
 
-
-
 a:hover {
 color: lightgrey;
 text-decoration: none;
@@ -239,5 +251,9 @@ text-decoration: none;
 
 li {
   list-style-type: none;
+}
+
+.col-sm-8 offset-sm-1 {
+  background:darkgrey;
 }
 
