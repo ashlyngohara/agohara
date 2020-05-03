@@ -207,11 +207,16 @@ a {
   position:absolute;
 }
 
+
+
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-color: white;
+color: #fff;
 background-color: black;
-border:none;
+border-color: black;
+float:left;
 }
+
+
 
 a:hover {
 color: lightgrey;
@@ -224,3 +229,10 @@ text-decoration: none;
   padding-top: 20px;
 }
 
+.row {
+  max-width:1471px;
+}
+
+li {
+  list-style-type: none;
+}
