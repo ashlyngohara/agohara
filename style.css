@@ -274,3 +274,11 @@ li {
 }
 
 
+.btn-floating {
+  color:black;
+}
+
+.btn-floating:hover {
+  color:grey;
+  border:10px;
+}
