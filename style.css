@@ -116,6 +116,8 @@ a:link {
 
 .me {
   width:100%;
+  position:center;
+  text-align:center;
 }
 
 .bio {
