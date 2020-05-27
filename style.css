@@ -81,7 +81,7 @@ li {
 }
 
 li a {
-  color: black;
+  color: green;
   text-align: center;
   text-decoration: none;
   margin-left:10px;
@@ -386,7 +386,9 @@ iframe {
 }
 
 
-
+.btn-floating {
+	color:white;
+}
 
 
 
